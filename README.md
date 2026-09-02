@@ -168,3 +168,45 @@ CodeAlpha_EDA/
     ├── content_added_trend.png
     ├── top_release_years.png
     └── movies_vs_tv_shows_pie.png
+
+## Task 3 — Data Visualization
+
+### Objective
+
+The objective of this task is to transform the Netflix dataset into meaningful
+visualizations using Python, Matplotlib, and Seaborn.
+
+### Visualizations Created
+
+1. Movies vs TV Shows
+2. Top 10 Netflix Genres
+3. Top 10 Countries by Number of Titles
+4. Netflix Content Added Over the Years
+5. Netflix Content Ratings Distribution
+6. Movie Duration Distribution
+7. Number of Seasons in TV Shows
+8. Movies vs TV Shows Added Over the Years
+9. Top 10 Genres by Content Type
+10. Netflix Content Distribution by Release Year
+
+### Key Insights
+
+- Movies are significantly more common than TV Shows.
+- Netflix content is concentrated across a number of popular genres.
+- A small number of countries contribute a large share of the titles.
+- Content additions increased significantly during the later years.
+- Some content ratings occur much more frequently than others.
+- Most Netflix movies fall within a moderate duration range.
+- Most TV Shows have a relatively small number of seasons.
+- Movies generally have a higher count than TV Shows over the years.
+- Genre distribution differs between Movies and TV Shows.
+- The release-year analysis shows the distribution of Netflix content across
+  different production years.
+
+### Tools Used
+
+- Python
+- Pandas
+- Matplotlib
+- Seaborn
+- Jupyter Notebook
