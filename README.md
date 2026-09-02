@@ -234,4 +234,48 @@ The Netflix dataset was visualized using Python to identify important trends
 and patterns in Movies and TV Shows. The visualizations provide a clear
 understanding of content types, genres, countries, ratings, movie durations,
 TV show seasons, and yearly trends.
+'''
+## 💬 Task 4 — Sentiment Analysis
 
+### 🎯 Objective
+
+The objective of this task is to analyze Amazon customer reviews
+using Natural Language Processing (NLP) and sentiment lexicons.
+
+The reviews are classified into Positive, Negative, and Neutral
+sentiments to understand customer opinions and sentiment patterns.
+
+### 📊 Analysis Performed
+
+- Loaded Amazon customer review data
+- Selected review text and rating fields
+- Cleaned the review text
+- Applied VADER sentiment lexicon
+- Classified reviews into Positive, Negative, and Neutral sentiments
+- Created a sentiment distribution visualization
+- Identified overall customer sentiment patterns
+
+### 🛠️ Tools Used
+
+- Python
+- Pandas
+- Matplotlib
+- Seaborn
+- VADER Sentiment
+- Jupyter Notebook
+
+### 💡 Key Insights
+
+- Positive reviews represent the dominant sentiment in the analyzed dataset.
+- Negative reviews represent a smaller portion of the reviews.
+- Neutral reviews indicate less clearly expressed sentiment.
+- The sentiment distribution provides an overview of customer opinions.
+
+### 📌 Conclusion
+
+Sentiment analysis was performed on Amazon customer reviews using
+Natural Language Processing and the VADER sentiment lexicon.
+
+The reviews were classified into Positive, Negative, and Neutral
+sentiments. The analysis provides an overview of customer opinions
+and can help businesses understand customer feedback and satisfaction trends.
