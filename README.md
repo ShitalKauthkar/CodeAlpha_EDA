@@ -151,32 +151,49 @@ All visualization images are stored in the `visualizations` folder.
 CodeAlpha_EDA/
 │
 ├── EDA_Netflix.ipynb
+├── CodeAlpha_Task3_Visualization.ipynb
 ├── netflix_titles.csv
 ├── README.md
 │
-└── visualizations/
-    ├── missing_values.png
-    ├── movies_vs_tv_shows_hypothesis.png
+├── visualizations/
+│   ├── missing_values.png
+│   ├── movies_vs_tv_shows_hypothesis.png
+│   ├── movies_vs_tv_shows.png
+│   ├── release_trend.png
+│   ├── movies_vs_tv_shows_release_trend.png
+│   ├── top_ratings.png
+│   ├── top_countries.png
+│   ├── top_genres.png
+│   ├── movie_duration_distribution.png
+│   ├── tv_show_seasons.png
+│   ├── content_added_trend.png
+│   ├── top_release_years.png
+│   └── movies_vs_tv_shows_pie.png
+│
+└── visualizations_task3/
     ├── movies_vs_tv_shows.png
-    ├── release_trend.png
-    ├── movies_vs_tv_shows_release_trend.png
-    ├── top_ratings.png
-    ├── top_countries.png
-    ├── top_genres.png
+    ├── top_10_genres.png
+    ├── top_10_countries.png
+    ├── content_added_over_years.png
+    ├── ratings_distribution.png
     ├── movie_duration_distribution.png
     ├── tv_show_seasons.png
-    ├── content_added_trend.png
-    ├── top_release_years.png
-    └── movies_vs_tv_shows_pie.png
+    ├── movies_vs_tv_shows_over_years.png
+    ├── top_genres_by_content_type.png
+    └── content_by_release_year.png
+```
 
-## Task 3 — Data Visualization
+## 📊 Task 3 — Data Visualization
 
-### Objective
+### 🎯 Objective
 
 The objective of this task is to transform the Netflix dataset into meaningful
 visualizations using Python, Matplotlib, and Seaborn.
 
-### Visualizations Created
+The visualizations help identify trends, patterns, distributions, and
+relationships within Netflix content.
+
+### 📈 Visualizations Created
 
 1. Movies vs TV Shows
 2. Top 10 Netflix Genres
@@ -189,11 +206,11 @@ visualizations using Python, Matplotlib, and Seaborn.
 9. Top 10 Genres by Content Type
 10. Netflix Content Distribution by Release Year
 
-### Key Insights
+### 💡 Key Insights
 
 - Movies are significantly more common than TV Shows.
 - Netflix content is concentrated across a number of popular genres.
-- A small number of countries contribute a large share of the titles.
+- A small number of countries contribute a large share of Netflix titles.
 - Content additions increased significantly during the later years.
 - Some content ratings occur much more frequently than others.
 - Most Netflix movies fall within a moderate duration range.
@@ -203,10 +220,18 @@ visualizations using Python, Matplotlib, and Seaborn.
 - The release-year analysis shows the distribution of Netflix content across
   different production years.
 
-### Tools Used
+### 🛠️ Tools Used
 
 - Python
 - Pandas
 - Matplotlib
 - Seaborn
 - Jupyter Notebook
+
+### 📌 Conclusion
+
+The Netflix dataset was visualized using Python to identify important trends
+and patterns in Movies and TV Shows. The visualizations provide a clear
+understanding of content types, genres, countries, ratings, movie durations,
+TV show seasons, and yearly trends.
+
